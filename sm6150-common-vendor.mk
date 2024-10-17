@@ -98,6 +98,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6150-common/proprietary/vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
+    libcamera_algoup_jni.xiaomi \
+    libcamera_mianode_jni.xiaomi \
+    libmicampostproc_client \
+    vendor.xiaomi.hardware.campostproc@1.0 \
     eglSubDriverAndroid \
     libEGL_adreno \
     libGLESv1_CM_adreno \
