@@ -101,6 +101,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libcamera_algoup_jni.xiaomi \
     libcamera_mianode_jni.xiaomi \
+    libgui_shim_miuicamera \
     libmicampostproc_client \
     vendor.xiaomi.hardware.campostproc@1.0 \
     eglSubDriverAndroid \
